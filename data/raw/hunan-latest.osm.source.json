@@ -1,0 +1,10 @@
+{
+  "url": "https://download.geofabrik.de/asia/china/hunan-latest.osm.pbf",
+  "retrievedAt": "2026-10-14T05:12:59Z",
+  "lastModified": "Tue, 13 Oct 2026 22:38:20 GMT",
+  "bytes": 50893966,
+  "sha256": "5ae1fd3bc001dccd65600c911d5aef7443463cba2434d1ff88926d9e65cd8d62",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors / Geofabrik",
+  "sourcePage": "https://download.geofabrik.de/asia/china/hunan.html"
+}

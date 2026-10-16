@@ -1,0 +1,13 @@
+import {cp,mkdir,readFile,writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+const root=process.cwd(),out=resolve(root,'dist');
+await mkdir(out,{recursive:true});
+for(const item of ['index.html','styles.css','src','assets'])await cp(resolve(root,item),resolve(out,item),{recursive:true});
+await mkdir(resolve(out,'data'),{recursive:true});
+for(const item of ['pois.json','pois.csv','sources.json','world-manifest.json','graph.json','map.json','data-report.json','chunks'])await cp(resolve(root,'data',item),resolve(out,'data',item),{recursive:true});
+await mkdir(resolve(out,'vendor/three'),{recursive:true});
+for(const name of ['three.module.js','three.core.js'])await cp(resolve(root,'node_modules/three/build',name),resolve(out,'vendor/three',name));
+await cp(resolve(root,'node_modules/three/LICENSE'),resolve(out,'vendor/three/LICENSE'));
+const manifest=JSON.parse(await readFile(resolve(root,'data/world-manifest.json'),'utf8'));
+await writeFile(resolve(out,'build-info.json'),JSON.stringify({builtAt:new Date().toISOString(),schemaVersion:1,chunks:Object.keys(manifest.chunks).length},null,2));
+console.log(`Built ${out}; ${Object.keys(manifest.chunks).length} geographical chunks`);
