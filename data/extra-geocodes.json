@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "data/raw/hunan-latest.osm.pbf",
+    "provider": "Geofabrik Hunan OSM snapshot",
+    "url": "https://download.geofabrik.de/asia/china/hunan.html",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "coordinateSystem": "WGS84",
+    "warning": "Named-object coordinates are location candidates, not verified entrances."
+  },
+  "matching": "normalized exact target name or explicitly sourced alias; no fuzzy matches",
+  "counts": {
+    "namedNodesScanned": 27036,
+    "namedWaysScanned": 81020,
+    "invalidNodeCoordinates": 0,
+    "waysWithoutCompleteGeometry": 0,
+    "namedObjectsMatched": 38,
+    "targetUnlocatedPois": 110,
+    "officialTargets": 64,
+    "prdTargets": 46,
+    "matchRecords": 32,
+    "uniqueMatchedPois": 14,
+    "exactMatches": 30,
+    "verifiedAliases": 2,
+    "unmatchedTargetPois": 96,
+    "legacyAliasMappingsReviewed": 7,
+    "provinceBounds": {
+      "minLon": 108.0,
+      "maxLon": 115.0,
+      "minLat": 24.0,
+      "maxLat": 31.0
+    },
+    "insideChangshaBoundary": 25,
+    "outsideChangshaBoundary": 7
+  },
+  "records": [
+    {
+      "name": "石牛寨",
+      "lon": 112.2647705,
+      "lat": 27.2828771,
+      "osmType": "node",
+      "osmId": 3096609465,
+      "tags": {
+        "name": "石牛寨",
+        "natural": "peak"
+      },
+      "matchedPoiId": "cs-a-2025-0238",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "松雅湖",
+      "lon": 113.1191935,
+      "lat": 28.3071624,
+      "osmType": "node",
+      "osmId": 3463536444,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "松雅湖",
+        "ref": "3"
+      },
+      "matchedPoiId": "cs-prd-932b9375d4",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "莲花山",
+      "lon": 109.3703129,
+      "lat": 28.274207,
+      "osmType": "node",
+      "osmId": 3881964486,
+      "tags": {
+        "name": "莲花山",
+        "name:en": "Lianhua Shan",
+        "name:zh": "莲花山",
+        "natural": "peak",
+        "source": "cyclemap",
+        "source:name": "GNS",
+        "wikidata": "Q28832273"
+      },
+      "matchedPoiId": "cs-a-2025-0258",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "关山",
+      "lon": 112.6898994,
+      "lat": 28.2745438,
+      "osmType": "node",
+      "osmId": 4077638121,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "关山",
+        "ref": "24"
+      },
+      "matchedPoiId": "cs-a-2025-0069",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 112.723473,
+      "lat": 25.582393,
+      "osmType": "node",
+      "osmId": 4263083223,
+      "tags": {
+        "name": "清水塘",
+        "name:en": "Qingshuitang",
+        "name:zh": "清水塘",
+        "place": "village",
+        "source:name": "GNS"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "长沙滨江文化园",
+      "lon": 112.9746726,
+      "lat": 28.2432379,
+      "osmType": "node",
+      "osmId": 4744121181,
+      "tags": {
+        "amenity": "arts_centre",
+        "check_date": "2026-09-23",
+        "name": "长沙滨江文化园",
+        "name:en": "Changsha Riverside Culture Center"
+      },
+      "matchedPoiId": "cs-a-2025-0120",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "关山",
+      "lon": 112.6846712,
+      "lat": 28.2763686,
+      "osmType": "node",
+      "osmId": 5343661350,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "关山",
+        "ref": "24"
+      },
+      "matchedPoiId": "cs-a-2025-0069",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 110.359387,
+      "lat": 27.754393,
+      "osmType": "node",
+      "osmId": 5694369627,
+      "tags": {
+        "name": "清水塘",
+        "name:en": "Qingshuitang",
+        "name:zh": "清水塘",
+        "place": "village",
+        "source:name": "GNS"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "关山",
+      "lon": 113.619868,
+      "lat": 28.4804154,
+      "osmType": "node",
+      "osmId": 5778622507,
+      "tags": {
+        "name": "关山",
+        "name:en": "Guanshan",
+        "name:zh": "关山",
+        "place": "village",
+        "source:name": "GNS"
+      },
+      "matchedPoiId": "cs-a-2025-0069",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "影珠山",
+      "lon": 113.1854406,
+      "lat": 28.5327953,
+      "osmType": "node",
+      "osmId": 5779799283,
+      "tags": {
+        "name": "影珠山",
+        "natural": "peak",
+        "source": "cyclemap"
+      },
+      "matchedPoiId": "cs-a-2025-0151",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 112.2085726,
+      "lat": 26.3002345,
+      "osmType": "node",
+      "osmId": 7573959204,
+      "tags": {
+        "name": "清水塘",
+        "name:en": "Qingshuitang",
+        "name:zh": "清水塘",
+        "place": "hamlet"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "洋湖湿地",
+      "lon": 112.9334044,
+      "lat": 28.1182731,
+      "osmType": "node",
+      "osmId": 7666490740,
+      "tags": {
+        "name": "洋湖湿地",
+        "name:en": "Yanghu Wetland",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q106687557",
+        "wikipedia": "zh:洋湖湿地站"
+      },
+      "matchedPoiId": "cs-a-2025-0068",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "洋湖湿地",
+      "lon": 112.9334473,
+      "lat": 28.1182626,
+      "osmType": "node",
+      "osmId": 8378840564,
+      "tags": {
+        "name": "洋湖湿地",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      },
+      "matchedPoiId": "cs-a-2025-0068",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 109.537675,
+      "lat": 28.061507,
+      "osmType": "node",
+      "osmId": 8467140404,
+      "tags": {
+        "name": "清水塘",
+        "name:en": "Qingshuitang",
+        "name:zh": "清水塘",
+        "place": "village",
+        "source:name": "GNS"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "后湖",
+      "lon": 112.9475635,
+      "lat": 28.159742,
+      "osmType": "node",
+      "osmId": 9501052876,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "后湖",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-prd-3377ea4fb8",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "后湖",
+      "lon": 112.9474643,
+      "lat": 28.1598359,
+      "osmType": "node",
+      "osmId": 9501052877,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "后湖",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-prd-3377ea4fb8",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "新民学会旧址",
+      "lon": 112.9479128,
+      "lat": 28.1958543,
+      "osmType": "node",
+      "osmId": 9509908861,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "新民学会旧址",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-prd-261bb69064",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "新民学会旧址",
+      "lon": 112.9461764,
+      "lat": 28.1963593,
+      "osmType": "node",
+      "osmId": 9509908862,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "新民学会旧址",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-prd-261bb69064",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "洋湖湿地",
+      "lon": 112.9333738,
+      "lat": 28.1182927,
+      "osmType": "node",
+      "osmId": 9759323017,
+      "tags": {
+        "name": "洋湖湿地",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      },
+      "matchedPoiId": "cs-a-2025-0068",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 113.0475953,
+      "lat": 28.3842648,
+      "osmType": "node",
+      "osmId": 11377164880,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "清水塘",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 112.9837163,
+      "lat": 28.2013187,
+      "osmType": "node",
+      "osmId": 13867027819,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "清水塘",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "清水塘",
+      "lon": 112.9842219,
+      "lat": 28.2015161,
+      "osmType": "node",
+      "osmId": 13867027855,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "清水塘",
+        "public_transport": "platform"
+      },
+      "matchedPoiId": "cs-a-2026-qingshuitang",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "莲花山",
+      "lon": 112.9813626,
+      "lat": 28.1417376,
+      "osmType": "node",
+      "osmId": 13970706043,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "莲花山",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "matchedPoiId": "cs-a-2025-0258",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "莲花山",
+      "lon": 112.9816872,
+      "lat": 28.1417577,
+      "osmType": "node",
+      "osmId": 13970706071,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "莲花山",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "matchedPoiId": "cs-a-2025-0258",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "node-location-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "洋湖湿地公园",
+      "lon": 112.943109,
+      "lat": 28.1242851,
+      "osmType": "node",
+      "osmId": 13971708433,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "洋湖湿地公园",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "matchedPoiId": "cs-a-2025-0068",
+      "matchMethod": "verified-alias",
+      "coordinateMethod": "node-location-wgs84",
+      "aliasEvidence": {
+        "sourceTitle": "探寻洋湖国家湿地公园的前世今生",
+        "url": "https://lyj.hunan.gov.cn/lyj/xxgk_71167/gzdt/mtkl/202602/t20260206_33911784.html",
+        "reason": "湖南省林业局以“洋湖国家湿地公园”为正式名称；用于 PRD/台账“洋湖湿地”目标的名称匹配。"
+      },
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "洋湖湿地公园",
+      "lon": 112.9413816,
+      "lat": 28.1228658,
+      "osmType": "node",
+      "osmId": 13971708489,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "洋湖湿地公园",
+        "name:en": "Yanghu Wetland Park",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "matchedPoiId": "cs-a-2025-0068",
+      "matchMethod": "verified-alias",
+      "coordinateMethod": "node-location-wgs84",
+      "aliasEvidence": {
+        "sourceTitle": "探寻洋湖国家湿地公园的前世今生",
+        "url": "https://lyj.hunan.gov.cn/lyj/xxgk_71167/gzdt/mtkl/202602/t20260206_33911784.html",
+        "reason": "湖南省林业局以“洋湖国家湿地公园”为正式名称；用于 PRD/台账“洋湖湿地”目标的名称匹配。"
+      },
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "月亮湾",
+      "lon": 110.44915078333334,
+      "lat": 29.132307883333336,
+      "osmType": "way",
+      "osmId": 572292989,
+      "tags": {
+        "landuse": "residential",
+        "name": "月亮湾",
+        "residential": "apartments"
+      },
+      "matchedPoiId": "cs-a-2025-0254",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "way-vertex-mean-wgs84",
+      "inChangshaBoundary": false
+    },
+    {
+      "name": "赤马湖",
+      "lon": 113.42832046458334,
+      "lat": 28.40002784340278,
+      "osmType": "way",
+      "osmId": 609747248,
+      "tags": {
+        "alt_name": "赤马湖;Chima Lake",
+        "code": "BFF10G01433",
+        "name": "横山头水库",
+        "name:en": "Hengshantou Reservoir",
+        "name:zh": "横山头水库",
+        "name:zh-Latn-pinyin": "héngshāntóu shuǐkù",
+        "natural": "water",
+        "source": "digitalGlobe Premium",
+        "water": "reservoir"
+      },
+      "matchedPoiId": "cs-a-2025-0225",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "way-vertex-mean-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "天心阁古城墙",
+      "lon": 112.97588211,
+      "lat": 28.18708754,
+      "osmType": "way",
+      "osmId": 1220125977,
+      "tags": {
+        "alt_name": "天心阁古城墙",
+        "barrier": "city_wall",
+        "name": "长沙城墙",
+        "ref:zh": "全国重点文物保护单位"
+      },
+      "matchedPoiId": "cs-prd-e4f8ac08be",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "way-vertex-mean-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "天心阁古城墙",
+      "lon": 112.97526096666667,
+      "lat": 28.187007933333334,
+      "osmType": "way",
+      "osmId": 1220125978,
+      "tags": {
+        "alt_name": "天心阁古城墙",
+        "barrier": "city_wall",
+        "name": "长沙城墙",
+        "ref:zh": "全国重点文物保护单位"
+      },
+      "matchedPoiId": "cs-prd-e4f8ac08be",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "way-vertex-mean-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "梅溪湖国际文化艺术中心",
+      "lon": 112.90159174166666,
+      "lat": 28.199853633333333,
+      "osmType": "way",
+      "osmId": 1277896414,
+      "tags": {
+        "amenity": "arts_centre",
+        "layer": "1",
+        "name": "梅溪湖国际文化艺术中心"
+      },
+      "matchedPoiId": "cs-prd-c0042e3c70",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "way-vertex-mean-wgs84",
+      "inChangshaBoundary": true
+    },
+    {
+      "name": "天心阁古城墙",
+      "lon": 112.97612716666667,
+      "lat": 28.187687033333333,
+      "osmType": "way",
+      "osmId": 1306636071,
+      "tags": {
+        "alt_name": "天心阁古城墙",
+        "barrier": "city_wall",
+        "name": "长沙城墙",
+        "ref:zh": "全国重点文物保护单位"
+      },
+      "matchedPoiId": "cs-prd-e4f8ac08be",
+      "matchMethod": "exact-match",
+      "coordinateMethod": "way-vertex-mean-wgs84",
+      "inChangshaBoundary": true
+    }
+  ],
+  "boundaryCheck": {
+    "source": "data/map.json#boundary",
+    "method": "point-in-polygon after converting WGS84 with origin 113,28.2 and radius 6371008.8 m",
+    "candidateObjects": 32,
+    "inside": 25,
+    "outside": 7
+  }
+}

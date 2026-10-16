@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {dampAngle,dampVelocity,bodyHeading,MOVE_SPEED}from'../src/motion.mjs';
+test('model face at local negative Z aligns with actual eastward and northward motion',()=>{for(const[x,z]of[[1,0],[0,-1],[-1,0],[0,1]]){const a=bodyHeading(x,z);assert.ok(Math.abs(-Math.sin(a)-x)<1e-8);assert.ok(Math.abs(-Math.cos(a)-z)<1e-8);}});
+test('turn uses shortest arc and gives the same response across frame rates',()=>{let a=3.1,b=3.1;for(let i=0;i<60;i++)a=dampAngle(a,-3.1,1/60);for(let i=0;i<20;i++)b=dampAngle(b,-3.1,1/20);assert.ok(Math.abs(a-b)<1e-10);assert.ok(a>3.1&&a<3.2);});
+test('movement accelerates without overshoot and brakes to a bounded stop',()=>{let v={x:0,z:0};for(let i=0;i<60;i++)v=dampVelocity(v,{x:MOVE_SPEED,z:0},1/60);assert.ok(v.x>MOVE_SPEED*.99&&v.x<=MOVE_SPEED);let d=0;for(let i=0;i<60;i++){v=dampVelocity(v,{x:0,z:0},1/60);d+=v.x/60;}assert.ok(d<.3);assert.deepEqual(v,{x:0,z:0});});

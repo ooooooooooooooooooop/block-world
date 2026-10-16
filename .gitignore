@@ -1,0 +1,10 @@
+node_modules/
+dist/
+artifacts/
+__pycache__/
+.python-deps/
+
+# Raw large geographic datasets (>50MB)
+data/raw/*.pbf
+data/raw/*.part
+data/raw/changsha-world.osm.json

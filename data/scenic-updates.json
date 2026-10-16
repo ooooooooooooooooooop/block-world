@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "auditWindow": {
+    "from": "2025-02-25",
+    "to": "2026-10-14"
+  },
+  "baseline": {
+    "sourceIds": [
+      "S01",
+      "S02"
+    ],
+    "publishedDate": "2025-02-25",
+    "changshaARecordCount": 84,
+    "countEvidence": "原始DOC名录抽取及哈希核验已确认：正文标题截至2025年1月底，长沙84行；增量审计未再次重抽。详见docs/景点清单核对.md。",
+    "currentSetCompleteness": "unknown",
+    "effectiveThrough": "2025-01-31"
+  },
+  "confirmedGradeActions": [
+    {
+      "eventType": "grade_award",
+      "eventDate": "2026-08-03",
+      "name": "长沙市清水塘景区",
+      "oldName": null,
+      "newName": "长沙市清水塘景区",
+      "oldGrade": null,
+      "newGrade": "4A",
+      "status": "confirmed_award_prior_grade_unknown",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "countDelta": null,
+      "countDeltaExplanation": "正式公告确认4A级称号；本阶段未核对基线中是否已有同址景区及其旧等级，因此不能据此宣称净新增一条。"
+    }
+  ],
+  "unresolvedMentions": [
+    {
+      "eventType": "grade_mention_without_award_date",
+      "eventDate": "2025-09-23",
+      "name": "资福窑",
+      "oldName": "资福制陶厂（报道语境）",
+      "newName": "资福窑（报道语境）",
+      "oldGrade": null,
+      "newGrade": "3A",
+      "status": "not_counted_as_period_change",
+      "sourceIds": [
+        "S05"
+      ],
+      "notes": "省文旅新闻称其‘焕新为3A景区’，但未给授级公告或授级日期，无法判断授级是否发生在本审计期内，也未认定景区更名。"
+    },
+    {
+      "eventType": "planned_upgrade",
+      "eventDate": "2026-02-28",
+      "name": "苍坊旅游区（胡耀邦故里）",
+      "oldName": null,
+      "newName": null,
+      "oldGrade": null,
+      "newGrade": "5A（创建目标）",
+      "status": "plan_only_no_award_found",
+      "sourceIds": [
+        "S06"
+      ],
+      "notes": "报道提到重启创建工作，不构成已获5A的证据；当前等级未知。"
+    }
+  ],
+  "reportedCounts": [
+    {
+      "publishedDate": "2025-10-03",
+      "reportedAsOf": "2025-10-01",
+      "value": 84,
+      "unit": "长沙市A级/等级旅游景区",
+      "sourceIds": [
+        "S07"
+      ]
+    },
+    {
+      "publishedDate": "2025-12-13",
+      "reportedAsOf": null,
+      "value": 83,
+      "unit": "长沙市A级景区",
+      "sourceIds": [
+        "S08"
+      ],
+      "notes": "总结报道未给该总数的明确统计时点或逐项名单。"
+    },
+    {
+      "publishedDate": "2026-02-03",
+      "reportedAsOf": null,
+      "value": 88,
+      "unit": "长沙市A级景区",
+      "sourceIds": [
+        "S09"
+      ],
+      "notes": "报道称为‘截至2025年9月底最新数据’语境中的数值，但没有给逐项名单；与2025-10-01的84家报道不能直接对账。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "湖南省文化和旅游厅",
+      "publishedDate": "2025-02-25",
+      "title": "旅游A级景区查询（目录页）",
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/cyfz/ggxxcx/lyajjqcx/index.html",
+      "evidence": "页面当前列出的名录附件日期为2025-02-25。",
+      "sourceType": "official_directory"
+    },
+    {
+      "id": "S02",
+      "publisher": "湖南省文化和旅游厅",
+      "publishedDate": "2025-02-25",
+      "title": "湖南省A级旅游景区名录表",
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/cyfz/ggxxcx/lyajjqcx/202404/33271070/files/3f8384ec1a6a4cfc999fbaa7ff9a0a53.doc",
+      "evidence": "官方目录页链接的原始名录附件；长沙84行数量承接此前名录抽取结果，本阶段未重新解析附件。",
+      "sourceType": "official_attachment"
+    },
+    {
+      "id": "S03",
+      "publisher": "湖南省旅游景区质量等级评定委员会",
+      "publishedDate": "2026-07-23",
+      "title": "关于拟确定长沙市清水塘景区等8家景区为4A级旅游景区的公示",
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/xxgk2019/xxgkml/tzgg/202607/t20260723_34032247.html",
+      "evidence": "正式公示称清水塘景区达到4A级标准并拟确定；公示期7个工作日。",
+      "sourceType": "official_proposed_rating"
+    },
+    {
+      "id": "S04",
+      "publisher": "湖南省旅游景区质量等级评定委员会",
+      "publishedDate": "2026-08-03",
+      "title": null,
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/xxgk2019/xxgkml/tzgg/202608/t20260803_34038645.html",
+      "evidence": "正式公告将长沙市清水塘景区列入4A级旅游景区。",
+      "sourceType": "official_rating"
+    },
+    {
+      "id": "S05",
+      "publisher": "湖南省文化和旅游厅",
+      "publishedDate": "2025-09-23",
+      "title": "快乐长沙 与宁乡约 第四届长沙市旅游发展大会定档9月26日 亮点内容抢先看",
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/202509/t20250923_33812124.html",
+      "evidence": "报道称资福制陶厂‘焕新为3A景区资福窑’，没有授级日期或评定公告。",
+      "sourceType": "official_news_context"
+    },
+    {
+      "id": "S06",
+      "publisher": "湖南省文化和旅游厅",
+      "publishedDate": "2026-02-28",
+      "title": null,
+      "url": "https://whhlyt.hunan.gov.cn/whhlyt/news/sxxw/202602/t20260228_33923081.html",
+      "evidence": "报道提及清水塘景区争创4A及苍坊旅游区（胡耀邦故里）重启创建5A工作；属于创建进展，不是授级公告。",
+      "sourceType": "official_news_context"
+    },
+    {
+      "id": "S07",
+      "publisher": "湖南省人民政府门户网站（转载）",
+      "publishedDate": "2025-10-03",
+      "title": "‘网红长沙’更添魅力",
+      "url": "https://searchs.hunan.gov.cn/hnszf/hnyw/szdt/202510/t20251003_33819759.html",
+      "evidence": "称截至2025-10-01下午5时，长沙市84家等级旅游景区。",
+      "sourceType": "government_news_statistic"
+    },
+    {
+      "id": "S08",
+      "publisher": "长沙晚报",
+      "publishedDate": "2025-12-13",
+      "title": "2025年12月13日长沙晚报版面",
+      "url": "https://www.icswb.com/default.php?a=download_newspaper_page_pdf&mod=newspaper_page&newspaper_page_id=276881",
+      "evidence": "总结报道说‘全市A级景区达83家’，没有逐项名单或统计时点。",
+      "sourceType": "news_statistic"
+    },
+    {
+      "id": "S09",
+      "publisher": "湖南日报",
+      "publishedDate": "2026-02-03",
+      "title": "改改千亿产业倍增",
+      "url": "https://hnrb.hunantoday.cn/hnrb_epaper/images/2026-02/03/10/2026020310_pdf.pdf",
+      "evidence": "报道中出现长沙A级景区增至88家，但未列景区名称或分级变动；与同年10月的84家报道口径冲突。",
+      "sourceType": "news_statistic"
+    }
+  ],
+  "sourceCoverage": {
+    "asOf": "2026-10-14",
+    "officialDirectoryFinding": "省文旅厅A级景区查询目录页可见的列表附件只有2025-02-25这一份；未找到可直接逐日查询的现行名录或变更日志。",
+    "searches": [
+      "定向检索省文旅厅与长沙市政府公开页面中的2025/2026长沙3A级新增、评定、授级公告关键词",
+      "核查省文旅厅A级景区查询目录页及清水塘4A公示、公告",
+      "核查长沙市/湖南省公开报道中的A级景区总数表述"
+    ],
+    "knownGaps": [
+      "未逐页穷尽省厅通用通知公告及各区县/景区评定委员会公告归档，未发现不等于不存在。",
+      "未取得2025-02之后长沙全量逐项有效名录，故未能确认除清水塘授级外的新增、升降级、撤销或更名。",
+      "83、84、88三种公开总数无逐项名单可对账；不能据此推导净增减或当前总量。",
+      "非A级公共文化设施清单不在本阶段扩查范围。"
+    ],
+    "currentChangshaAListCompleteness": "not_verified"
+  }
+}
