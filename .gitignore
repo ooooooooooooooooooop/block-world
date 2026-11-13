@@ -8,3 +8,6 @@ __pycache__/
 data/raw/*.pbf
 data/raw/*.part
 data/raw/changsha-world.osm.json
+# generated data snapshots — publish via release assets instead
+data/graph.json
+data/map.json
